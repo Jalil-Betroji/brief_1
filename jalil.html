@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="style.css" >
     <script src="https://kit.fontawesome.com/fb9db22d4b.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
-    <link rel="shortcut icon" type="x-icon" href="jalil.png"/>
+    <link rel="icon" href="jalil.png" type="image/x-icon">
   </head>
 
   <body>
@@ -17,7 +17,7 @@
     <section class="about_me cadre">
       <div class="wrapper">
         <h2>About Me</h2>
-        <img src="jalil.png" alt="my pictures" />
+        <img alt="my pictures" src="jalil.png" >
         <p>Hello, I'm Jalil Betroji, I'm 22 years old, I live in Chefchaouen, a new trainee at SoliCode Institute in Tangiers </p>
           <p>specialized in web development.I am very interested in this field and I aspire to become an integrated</p>
           <p>programmer capable of creating professional websites and analyzing and improving websites By solving</p>
@@ -37,21 +37,19 @@
         <div class="floattant">
           <a href="https://metagoblin.io/" target="_blank"
             ><img src="proje.png" alt="project"
-          /></a>
+          ></a>
           <p>metagoblin</p>
           <p>February 2022</p>
         </div>
         <div class="floattant">
           <a href="https://www.metarembrandt.com/" target="_blank"
-            ><img src="pro.jpg" alt="project"
-          /></a>
+            ><img alt="project" src="pro.jpg"></a>
           <p>book of gates official</p>
           <p> April 2022</p>
         </div>
         <div class="floattant">
           <a href="https://www.bookofgatesofficial.com/" target="_blank"
-            ><img src="proj.jpg"
-          /></a>
+            ><img src="proj.jpg" alt="project"></a>
           <p>metarembrandt</p>
           <p>June 2022</p>
         </div>
@@ -109,15 +107,21 @@
       <div class="wrapper">
         <h2>Social Media</h2>
         <div class="Media">
-          <a href="https://twitter.com/JBetroji?t=-kv10xDuM-U-_NBZHIgGAQ&s=09" target="_blank" ><li><i class="fa-brands fa-twitter"></i></li></a>
-          <a href="https://twitter.com/JBetroji?t=-kv10xDuM-U-_NBZHIgGAQ&s=09" target="_blank" ><p>@Jalil_Betroji</p></a>
+          <ul>            
+           <li><a href="https://twitter.com/JBetroji?t=-kv10xDuM-U-_NBZHIgGAQ&s=09" target="_blank" ><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+            <a href="https://twitter.com/JBetroji?t=-kv10xDuM-U-_NBZHIgGAQ&s=09" target="_blank" ><p>@Jalil_Betroji</p></a>
         </div>
         <div class="Media">
-          <a href="www.linkedin.com/in/jalil-betroji" target="_blank"><li><i class="fa-brands fa-linkedin-in"></i></li></a>
-          <a href="www.linkedin.com/in/jalil-betroji" target="_blank"><p>@Jalil_Betroji</p></a>
+          <ul>
+            <li><a href="www.linkedin.com/in/jalil-betroji" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          </ul>
+            <a href="www.linkedin.com/in/jalil-betroji" target="_blank"><p>@Jalil_Betroji</p></a>
         </div>
         <div class="Media">
-          <a href="https://github.com/Jalil-Betroji?tab=repositories" target="_blank"><li><i class="fa-brands fa-github"></i></li></a>
+          <ul>          
+            <li><a href="https://github.com/Jalil-Betroji?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
           <a href="https://github.com/Jalil-Betroji?tab=repositories" target="_blank"><p>@Jalil-Betroji</p></a>
         </div>
       </div>
@@ -126,32 +130,23 @@
       <div class="contact cadre">
         <div class="wrapper">
           <h2>contact</h2>
-          <form action="" class="reveal_content">             
-              <input
-              type="email"
-              class="gray"
-              id="email"
-              placeholder="Email"
-              />    
-              <input
-              type="text"
-              class="gray"
-              id="subject"
-              placeholder="Subject"
-              />               
-                <textarea
-                type="form-control"
-                rows="8"
-                class="gray"
-                placeholder="Enter your message"
-                ></textarea>          
+          <form action="action_page.php">
+            <input type="text" class="gray" name="Email" placeholder="Email">
+            <input type="text" class="gray" name="Subject" placeholder="Subject">
+            <textarea
+             name="message"
+             rows="8"
+             cols="80"
+             class="gray"
+             placeholder="Send your message"
+            ></textarea>         
             <button type="submit" class="btn btn-primary">Send message</button>
           </form>
         </div>
       </div>
-      <section class="right">
+      <footer class="right">
          <p>&copy;All right reserved. Solicode Tanger 2022/2023</p>
-      </section>
+      </footer>
     </section>
   </body>
 </html>

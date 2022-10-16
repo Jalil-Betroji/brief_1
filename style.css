@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Oswald:wght@200;400;500;600;700&display=swap');
 *
 {
   box-sizing: border-box;
@@ -45,7 +45,7 @@ header h1
 }
 header p
 {
-  font-size: 16;
+  font-size: 16px;
   font-family: "lato";
   padding-top: 7px;
 }
