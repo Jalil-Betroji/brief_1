@@ -47,13 +47,14 @@ header p
 {
   font-size: 16px;
   font-family: "lato";
-  padding-top: 7px;
+  margin-top: 7px;
 }
 .cadre
 {
   width:92%;
   max-width: 1200px;
   margin: 0 auto;
+  border-radius: 3px;
 }
 .wrapper
 {
@@ -138,7 +139,7 @@ margin-top: 48px;
 .project p:nth-of-type(1)
 {
   padding-top: 10px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   font-family: "Oswald";
 }
@@ -285,9 +286,11 @@ margin-top: 48px;
 {
  border: 1px solid gray;
  border-radius: 90px;
- padding: 5PX 5px;
- float: left;
+ padding: 2PX 2px;
+ float:left;
  margin-right: 10px;
+ width: 25px;
+ height: 25px;
 }
 ::placeholder
 {
